@@ -1,0 +1,114 @@
+{
+  "main": {
+    "name":"Collin Nguyen",
+    "description":"Welcome to my Portfolio",
+    "image":"profilepic.jpg",
+    "bio":"I am currently a Computer Science and Systems student at University of Washington Tacoma. With my education and neverending passion for creating, I hope to produce solutions to complex problems and leave a lasting impact.",
+    "contactmessage":"If my skills and qualifications seem like a fit for your organization, please be sure to contact me! Thank you.",
+    "email": "collinjnguyen@gmail.com",
+    "phone": "(206)-708-5856",
+    "github":"https://github.com/collinjnguyen",
+    "project":"https://www.linkedin.com/in/collin-nguyen-7a2776104/",
+    "address":{
+      "street":"25217 136th Ave SE",
+      "city":"Kent",
+      "state":"WA",
+      "zip": "98042"
+    },
+    "website": "",
+    "resumedownload":"",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/collin-nguyen-7a2776104/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/collinjnguyen",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Related Skills & Languages",
+    "education":[
+      {
+        "school":"University of Washington Tacoma",
+        "degree":"Computer Science & Systems",
+        "graduated":"Current",
+        "description":"At UWT, I've taken key courses such as Data Structures and Algorithms. I have also had coursework related to software development in a team environment, as well as mathematical courses such as Calculus and Discrete Structures."
+      },
+      {
+        "school":"Green River",
+        "degree":"Associates of Arts",
+        "graduated":"June 2018",
+        "description":"My journey into the world of computer science began here, where I took my first programming classes: Java 1 & 2."
+      }
+    ],
+    "work":[
+      {
+        "company":"Fastenal",
+        "title":"Customer Onsite Support",
+        "years":"August 2018 - Present",
+        "description":""
+      },
+      {
+        "company":"Amazon",
+        "title":"Warehouse Associate",
+        "years":"October 2016",
+        "description":""
+      }
+    ],
+    "skills":[
+      {
+        "name":"Java",
+        "level":"80%"
+      },
+      {
+        "name":"JavaScript",
+        "level":"50%"
+      },
+      {
+        "name":"React",
+        "level":"50%"
+      },
+      {
+        "name":"CSS",
+        "level":"40%"
+      },
+      {
+        "name":"Python",
+        "level":"70%"
+      },
+      {
+        "name":"C",
+        "level":"40%"
+      },
+      {
+        "name":"R",
+        "level":"50%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      
+    ]
+  }
+}
