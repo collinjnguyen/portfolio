@@ -2,7 +2,7 @@
   "name": "personalportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://collinjnguyen.github.io/portfolio",
+  "homepage": "https://www.collinjnguyen.com",
   "dependencies": {
     "anix": "^0.3.3",
     "jquery": "^3.2.1",
