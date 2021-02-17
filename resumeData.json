@@ -3,7 +3,7 @@
     "name":"Collin Nguyen",
     "description":"Welcome to my Portfolio",
     "image":"profilepic.jpg",
-    "bio":"I am currently a Computer Science and Systems student at University of Washington Tacoma. With my education and neverending passion for creating, I hope to produce solutions to complex problems and leave a lasting impact.",
+    "bio":"I'm a dedicated, motivated Software Developer known for 2+ years of designing, developing, and delivering custom web applications and software solutions. I can apply cutting-edge industry skills and knowledge such as full-stack development, website development/administration, and front-end and back-end tools in React environments. I'm an out-of-the-box thinker committed to punctual handover of deliverables while adapting to post-COVID work practices. ",
     "contactmessage":"If my skills and qualifications seem like a fit for your organization, please be sure to contact me! Thank you.",
     "email": "collinjnguyen@gmail.com",
     "phone": "(206)-708-5856",
@@ -46,19 +46,19 @@
     ]
   },
   "resume":{
-    "skillmessage":"Related Skills & Languages",
+    "skillmessage":"Languages",
     "education":[
       {
         "school":"University of Washington Tacoma",
         "degree":"Computer Science & Systems",
         "graduated":"Current",
-        "description":"At UWT, I've taken key courses such as Data Structures and Algorithms. I have also had coursework related to software development in a team environment, as well as mathematical courses such as Calculus and Discrete Structures."
+        "description":"Algorithms, Data Structures, Client/Server Programming, Database Systems Design, Computer Operating Systems, Linear Algebra, Calculus, Software Development, Statistics"
       },
       {
         "school":"Green River",
         "degree":"Associates of Arts",
         "graduated":"June 2018",
-        "description":"Java 1 & 2."
+        "description":"Java 1, Java 2"
       }
     ],
     "work":[
@@ -66,7 +66,7 @@
         "company":"Fastenal",
         "title":"Customer Onsite Support",
         "years":"August 2018 - Present",
-        "description":""
+        "description": "Managed warehouse inventory and utilized POS systems to direct operations. Saved 5 labor hours weekly by co-developing an automated inventory counting program. Drove continuous process improvements to enhance efficiency and customer satisfaction."
       },
       {
         "company":"Amazon",
@@ -78,37 +78,60 @@
     "skills":[
       {
         "name":"Java",
-        "level":"80%"
-      },
-      {
-        "name":"JavaScript",
-        "level":"50%"
-      },
-      {
-        "name":"React",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
-        "level":"40%"
-      },
-      {
-        "name":"Python",
         "level":"70%"
       },
       {
-        "name":"C",
-        "level":"40%"
+        "name":"JavaScript",
+        "level":"80%"
       },
       {
-        "name":"R",
+        "name":"HTML",
+        "level":"70%"
+      },
+      {
+        "name":"CSS",
+        "level":"60%"
+      },
+      {
+        "name":"SQL",
         "level":"50%"
+      },
+      {
+        "name":"PHP",
+        "level":"50%"
+      },
+      {
+        "name":"Python",
+        "level":"60%"
       }
     ]
   },
   "portfolio":{
     "projects": [
-      
+      {
+        "title":"Personal Portfolio",
+        "category":"Website",
+        "image":"placeholder.png",
+        "url":"https://www.collinjnguyen.com"
+      },
+      {
+        "title":"Mundo Burrito",
+        "category":"Website",
+        "image":"placeholder.png",
+        "url":"https://collin7-tcss460-assignment1.herokuapp.com/"
+      },
+      {
+        "title":"VibezBot Discord Bot",
+        "category":"GitHub",
+        "image":"placeholder.png",
+        "url":"https://github.com/collinjnguyen/vibezbot"
+      },
+      {
+        "title":"Maze Solver",
+        "category":"GitHub",
+        "image":"placeholder.png",
+        "url":"https://github.com/collinjnguyen/maze"
+      }
     ]
   }
 }
