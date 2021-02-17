@@ -3,12 +3,9 @@ import React, { Component } from 'react';
 class Resume extends Component {
 
   getRandomColor() {
-    var letters = '0123456789ABCDEF';
-    var color = '#';
-    for (var i = 0; i < 6; i++) {
-      color += letters[Math.floor(Math.random() * 16)];
-    }
-    return color;
+    var barColors = ['012a4a', '013a63', '01497c', '014f86', '2a6f97', '2c7da0', '468faf', '61a5c2', '89c2d9', 'a9d6e5'];
+    var chosenColor = '#' + barColors[Math.floor(Math.random() * barColors.length)];
+    return chosenColor;
   }
   
   render() {
@@ -76,14 +73,29 @@ class Resume extends Component {
 
          <div className="nine columns main-col">
 
-            <p>{skillmessage}
-            </p>
+            {/* <p>{skillmessage}
+            </p> */}
 
 				<div className="bars">
 				   <ul className="skills">
 					  {skills}
 					</ul>
 				</div>
+
+            <p>Object-Oriented Design, 
+                Software Development, 
+                Data Structures, 
+                Algorithms, 
+                Complexity Analysis, 
+                Programming Languages,  
+                Mobile Design, 
+                Agile Methodologies, 
+                Team Collaboration,  
+                UI/UX Frameworks,  
+                Scalable Design,  
+                Code Reviews
+                </p>
+
 			</div>
       </div>
    </section>

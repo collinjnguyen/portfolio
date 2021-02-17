@@ -7,6 +7,7 @@ class Header extends Component {
     if(this.props.data){
          var project = this.props.data.project;
          var github = this.props.data.github;
+         var blog = this.props.data.website;
          var name = this.props.data.name;
          var description= this.props.data.description;
          var city= this.props.data.address.city;
@@ -17,7 +18,7 @@ class Header extends Component {
 
     return (
       <header id="home">
-      <ParticlesBg color="#ffffff" type="cobweb" bg={true} />
+      <ParticlesBg color="#ffffff" type="cobweb" num="80" bg={true} />
       <nav id="nav-wrap">
          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
@@ -38,8 +39,9 @@ class Header extends Component {
             <h3>{description}.</h3>
             <hr />
             <ul className="social">
-               <a href={project} className="button btn project-btn"><i className="fa fa-book"></i>Blog</a>
-               <a href={github} className="button btn github-btn"><i className="fa fa-github"></i>Github</a>
+               <a href={project} className="button btn project-btn"><i className="fa fa-linkedin"></i>LinkedIn</a>
+               <a href={github} className="button btn github-btn"><i className="fa fa-github"></i>GitHub</a>
+               <a href={blog} className="button btn github-btn"><i className="fa fa-book"></i>Blog</a>
             </ul>
          </div>
       </div>
